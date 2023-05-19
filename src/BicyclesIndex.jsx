@@ -1,7 +1,7 @@
 
    export function BicyclesIndex(props) {
       return (
-        <div>
+        <div id= "bicycles-index">
           <h1>All Bicycles</h1>
           {props.bicycles.map((bicycle) => (
            <div key={bicycle.id}>
